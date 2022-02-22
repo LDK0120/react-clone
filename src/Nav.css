@@ -9,6 +9,30 @@ p {
   padding-top: 10px;
   font-size: 0.9rem;
 }
+a {
+  margin-bottom: 0;
+  padding-top: 10px;
+  font-size: 0.9rem;
+  color: white;
+  transition: all 250ms ease-in-out;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--color-green);
+}
+
+a:active {
+  text-decoration: none;
+}
 
 .nav-bar {
   display: fixed;
@@ -37,7 +61,7 @@ p {
   justify-content: space-between;
   margin-left: 45px;
   letter-spacing: 1px;
-  transform: translateY(20%);
+  transform: translateY(25%);
 }
 
 .login-btn {
@@ -58,6 +82,10 @@ p {
 .login-btn:hover {
   background-color: rgba(21, 21, 21, 0.3);
   color: white;
+}
+
+.btn {
+  color: #fff;
 }
 
 .arrow-down {

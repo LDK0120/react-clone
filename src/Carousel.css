@@ -1,0 +1,19 @@
+.carousel-text a {
+  background-color: #fff;
+  color: #000;
+  letter-spacing: 1.5px;
+  padding: 7px 27px;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-right: 45px;
+  transform: translateY(-15%);
+  line-height: 1.2rem;
+  font-weight: 500;
+  transition: all 250ms ease-in-out;
+}
+
+.carousel-text a:hover {
+  background-color: rgba(21, 21, 21, 0.3);
+  color: white;
+}
