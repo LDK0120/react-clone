@@ -1,31 +1,17 @@
 import React from "react"
-import "./Main.css"
-import Carousel from "./Carousel"
-import HuluOriginal from "./HuluOriginal"
-import LatestNews from "./LatestNews"
+import Search from "./Search"
+import Cards from "./Cards"
 import Footer from "./Footer"
-import data from "./data.js"
 
-
-export default function Main() {
-        const carouselItem = data;
-
+export default function HuluOriginal() {
     return (
-        <div className="Main">
+        <div className="HuluOriginal">
+            
 
-        {
-            carouselItem.map(item => {
-                return (
-                    <div key={item.id}>
-                    <Carousel image={item.image} distributor={item.distributor} title={item.title} streaming={item.streaming} link={item.url} />
-                    </div>
-                )})
-        }
-            <HuluOriginal />
-            <LatestNews />
+
+            <Search />
+            <Cards />
             <Footer />
         </div>
     )
 }
-
-        

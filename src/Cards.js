@@ -1,10 +1,9 @@
 import React from "react"
-import "./LatestNews.css"
+import data from "./data.js"
 
-export default function LatestNews() {
+export default function Cards() {
     return (
         <div className="LatestNews">
-            
         </div>
     )
 }
