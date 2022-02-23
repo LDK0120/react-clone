@@ -15,17 +15,17 @@ export default function Footer() {
             </div>
             <div className="bottom-row">
                 <div className="bottom-row-left">
-                    <a href="#">ABOUT</a>
-                    <a href="#">CAREERS</a>
-                    <a href="#">HELP</a>
-                    <a href="#">ADVERTISING</a>
+                    <a href="https://press.hulu.com/corporate/">ABOUT</a>
+                    <a href="https://jobs.disneycareers.com/search-jobs?acm=ALL&alrpm=ALL&ascf=[%7B%22key%22:%22custom_fields.IndustryCustomField%22,%22value%22:%22Disney+Streaming%22%7D,%7B%22key%22:%22custom_fields.IndustryCustomField%22,%22value%22:%22Hulu%22%7D]" target="_blank">CAREERS</a>
+                    <a href="https://help.hulu.com/s/" target="_blank">HELP</a>
+                    <a href="https://advertising.hulu.com/" target="_blank">ADVERTISING</a>
                 </div>
 
                 <div className="bottom-row-right">
-                    <a href="#">ABOUT ADS</a>
-                    <a href="#">TERMS OF USE</a>
-                    <a href="#">PRIVACY POLICY</a>
-                    <a href="#">YOUR CALIFORNIA PRIVACY RIGHTS</a>
+                    <a href="https://info.evidon.com/pub_info/3920?v=1&nt=0&nw=false">ABOUT ADS</a>
+                    <a href="https://press.hulu.com/terms/">TERMS OF USE</a>
+                    <a href="https://press.hulu.com/privacy-policy/">PRIVACY POLICY</a>
+                    <a href="https://www.hulu.com/ca-privacy-rights">YOUR CALIFORNIA PRIVACY RIGHTS</a>
                     <span className="copyright">2022 Hulu, LLC</span>
                 </div>
             </div>
