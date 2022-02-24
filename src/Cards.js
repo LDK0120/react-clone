@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import PageChange from "./PageChange";
 
 export default function Cards(props) {
 
@@ -21,7 +22,7 @@ export default function Cards(props) {
                     </div>
                     
             )})}
-
+            <PageChange />
         </div>
     )
 }

@@ -467,11 +467,52 @@ a .card-body {
 
 .scroll {
   position: fixed;
-  bottom: 70px;
-  right: 55px;
-  color: white;
-  background-color: blue;
-  padding: 20px;
+  bottom: 50px;
+  right: 50px;
+  color: #000;
+  background-color: #fff;
+  padding: 10px 15px;
   border-radius: 50%;
   align-items: center;
+  border: 1px solid #b5b5b5;
+}
+
+.arrow-up-icon {
+  width: 14px;
+  height: 19px;
+}
+
+.page-list {
+  width: 280px;
+  margin: 60px auto;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+.page-list-items {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.page-list-item a:hover {
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.arrow-left,
+.arrow-right {
+  color: var(--color-green);
+}
+
+#one a {
+  cursor: not-allowed;
+  opacity: 0.4;
+  font-weight: 400;
+}
+
+#two {
+  background-color: var(--color-green);
+  padding: 2px 9px;
 }
