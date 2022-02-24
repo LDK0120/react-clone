@@ -18,7 +18,7 @@ export default function Nav() {
           <p className="item">ASSETS <span className="arrow-down"><FontAwesomeIcon icon={faAngleDown} className="search-icon" /></span></p>
           <p className="item">ABOUT <span className="arrow-down"><FontAwesomeIcon icon={faAngleDown} className="search-icon" /></span></p>
           </div>
-          
+
           <div className="nav-right">
             <FontAwesomeIcon icon={faMagnifyingGlass} className="magnifying-icon" />
           <button className="login-btn">LOG IN</button>

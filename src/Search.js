@@ -5,6 +5,7 @@ import { faMagnifyingGlass, faAngleDown } from '@fortawesome/free-solid-svg-icon
 
 
 export default function Search() {
+    
     return (
         <div className="Search">
             <div className="search-box">
@@ -14,7 +15,7 @@ export default function Search() {
             </form>
             </div>
           <p className="item search-category">CATEGORIES</p><FontAwesomeIcon icon={faAngleDown} />
-          
+
         </div>
     )
 }
