@@ -20,7 +20,7 @@ export default function Search() {
         <div className="Search">
             <div className="search-box" id={border}>
             <FontAwesomeIcon icon={faMagnifyingGlass} className="search-section-icon" />  
-            <form>
+            <form> 
                 <input type="search" placeholder="Search Newsroom" required onFocus={handleFocus} onBlur={removeFocus} />
             </form>
             </div>

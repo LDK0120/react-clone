@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Nav from "./Nav";
 import Main from "./Main";
+import ScrollIndicator from "./ScrollIndicator";
 
 
 export default function App() {
+
+  const [check, setCheck] = useState(0)
+
+  function handleScroll() {
+    let currentPosition = window.pageYOffset;
+    setCheck(currentPosition)
+  }
+
+  window.addEventListener('scroll', handleScroll)
+
+
   return (
     <div className="App">
       <div className="top-padding"></div>
@@ -25,7 +37,7 @@ export default function App() {
 </div>
       <Nav />
       <Main />
+      <ScrollIndicator position={check} />
   </div>
   )
 }
-

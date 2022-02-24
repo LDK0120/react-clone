@@ -9,7 +9,7 @@ export default function Nav() {
         <div className="nav-items">
           <div className="nav-left">
           <p className="logo"><span className="letter-height">h</span>U<span className="letter-height">l</span>U PRESS</p>
-          <a className="item" href="https://press.hulu.com/news/">NEWS</a>
+          <a className="item" id="item-one" href="/" >NEWS</a>
           <a className="item" href="https://press.hulu.com/guides/">GUIDES</a>
           <a className="item" href="https://press.hulu.com/schedule/february-2022/">SCHEDULE</a>
           
