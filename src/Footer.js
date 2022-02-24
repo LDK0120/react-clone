@@ -7,10 +7,10 @@ export default function Footer() {
     return (
         <div className="Footer">
             <div className="top-row">
-                <FontAwesomeIcon icon={faInstagram} className="icon"/>
-                <FontAwesomeIcon icon={faTwitter} className="icon"/>
-                <FontAwesomeIcon icon={faFacebookF} className="icon"/>
-                <FontAwesomeIcon icon={faLinkedinIn} className="icon"/>
+                <a href="https://www.instagram.com/hulu/" target="_blank"><FontAwesomeIcon icon={faInstagram} className="icon"/></a>
+                <a href="https://twitter.com/hulu" target="_blank"><FontAwesomeIcon icon={faTwitter} className="icon"/></a>
+                <a href="https://www.facebook.com/hulu" target="_blank"><FontAwesomeIcon icon={faFacebookF} className="icon"/></a>
+                <a href="https://www.linkedin.com/company/hulu/" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} className="icon"/></a>
 
             </div>
             <div className="bottom-row">
