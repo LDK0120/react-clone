@@ -22,7 +22,7 @@ export default function Footer() {
                 </div>
 
                 <div className="bottom-row-right">
-                    <a href="https://info.evidon.com/pub_info/3920?v=1&nt=0&nw=false">ABOUT ADS</a>
+                    <a href="https://info.evidon.com/pub_info/3920?v=1&nt=0&nw=false"><img src="info.png" className="info-icon" alt="info icon" /> ABOUT ADS</a>
                     <a href="https://press.hulu.com/terms/">TERMS OF USE</a>
                     <a href="https://press.hulu.com/privacy-policy/">PRIVACY POLICY</a>
                     <a href="https://www.hulu.com/ca-privacy-rights">YOUR CALIFORNIA PRIVACY RIGHTS</a>
