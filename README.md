@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Website used to clone: 
+
+Hulu Press Website at https://press.hulu.com/news/
+
 ## Available Scripts
 
 In the project directory, you can run:
