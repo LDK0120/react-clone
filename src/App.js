@@ -22,7 +22,7 @@ export default function App() {
       <div className="top-padding"></div>
     <div className="row">
       <div className=" col col-left">
-        <img src="main-news-image.png" alt="main news image" />
+        <img src="main-news-image.png" alt="main news" />
       </div>
       <div className="col col-right">
         <div className="texts">
