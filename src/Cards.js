@@ -12,7 +12,7 @@ export default function Cards(props) {
                 return (
                     <div className="card" key={index} onMouseOver={() => { setActive(index);}} onMouseLeave={() => { setActive(-1);}}>
                         <a href={item.link}>
-                        <img className="card-image" src={`${item.image}`} alt={`hulu image ${index + 1}`} />
+                        <img className="card-image" src={`${item.image}`} alt={`card ${index + 1}`} />
                         <div className="card-text">
                         <p className="card-head">{item.head}</p>
                         <p className="card-body">{item.body}</p>
