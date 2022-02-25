@@ -12,7 +12,6 @@ export default function Nav() {
           <a className="item" id="item-one" href="/" >NEWS</a>
           <a className="item" href="https://press.hulu.com/guides/">GUIDES</a>
           <a className="item" href="https://press.hulu.com/schedule/february-2022/">SCHEDULE</a>
-          
           <p className="item">ORIGINALS <span className="arrow-down"><FontAwesomeIcon icon={faAngleDown} className="search-icon" /></span></p>
           <p className="item">FX <span className="arrow-down"><FontAwesomeIcon icon={faAngleDown} className="search-icon" /></span></p>
           <p className="item">ASSETS <span className="arrow-down"><FontAwesomeIcon icon={faAngleDown} className="search-icon" /></span></p>
